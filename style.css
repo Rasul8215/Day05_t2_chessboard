@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+html{
+    background-color: black;
+}
+body{
+    width: 800px;
+    height: 850Px;
+    background-color: aliceblue;
+    margin: 35px auto;
+    border: red solid 5px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    height: 100px;
+    font-size:90px;
+}
+
+.block{
+    display: flex;
+    background-color:green;
+    width: 10%;
+    height: 100px;
+    align-items: center;
+
+}
+.black{
+    display: flex;
+    background-color: goldenrod;
+    align-items: center;
+    
+}
+.bor{
+    padding: 10px;
+}
+
